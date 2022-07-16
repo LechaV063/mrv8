@@ -1,0 +1,538 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R6
+U 1 1 6286B414
+P 7950 2700
+F 0 "R6" H 8020 2746 50  0000 L CNN
+F 1 "1k" H 8020 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7880 2700 50  0001 C CNN
+F 3 "~" H 7950 2700 50  0001 C CNN
+	1    7950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6286B175
+P 7350 2700
+F 0 "R4" H 7420 2746 50  0000 L CNN
+F 1 "1k" H 7420 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 2700 50  0001 C CNN
+F 3 "~" H 7350 2700 50  0001 C CNN
+	1    7350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 62863AAE
+P 8550 2700
+F 0 "R8" H 8620 2746 50  0000 L CNN
+F 1 "1k" H 8620 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8480 2700 50  0001 C CNN
+F 3 "~" H 8550 2700 50  0001 C CNN
+	1    8550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 62863836
+P 6750 2700
+F 0 "R2" H 6820 2746 50  0000 L CNN
+F 1 "1k" H 6820 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 2700 50  0001 C CNN
+F 3 "~" H 6750 2700 50  0001 C CNN
+	1    6750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 628634B0
+P 6450 2700
+F 0 "R1" H 6520 2746 50  0000 L CNN
+F 1 "1k" H 6520 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 2700 50  0001 C CNN
+F 3 "~" H 6450 2700 50  0001 C CNN
+	1    6450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6286326B
+P 7050 2700
+F 0 "R3" H 7120 2746 50  0000 L CNN
+F 1 "1k" H 7120 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6980 2700 50  0001 C CNN
+F 3 "~" H 7050 2700 50  0001 C CNN
+	1    7050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 6286300C
+P 7650 2700
+F 0 "R5" H 7720 2746 50  0000 L CNN
+F 1 "1k" H 7720 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7580 2700 50  0001 C CNN
+F 3 "~" H 7650 2700 50  0001 C CNN
+	1    7650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 6285FB2C
+P 8250 2700
+F 0 "R7" H 8320 2746 50  0000 L CNN
+F 1 "1k" H 8320 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8180 2700 50  0001 C CNN
+F 3 "~" H 8250 2700 50  0001 C CNN
+	1    8250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:IR26-21C_L110_TR8 D8
+U 1 1 62807096
+P 8000 3600
+F 0 "D8" H 8100 3550 50  0000 C CNN
+F 1 "IR26-21C_L110_TR8" H 7993 3725 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 8000 3800 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf" H 8000 3600 50  0001 C CNN
+	1    8000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:IR26-21C_L110_TR8 D4
+U 1 1 62806ACF
+P 6800 3200
+F 0 "D4" H 6950 3150 50  0000 C CNN
+F 1 "IR26-21C_L110_TR8" H 6793 3325 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 6800 3400 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf" H 6800 3200 50  0001 C CNN
+	1    6800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:IR26-21C_L110_TR8 D7
+U 1 1 62805F6B
+P 7700 3500
+F 0 "D7" H 7850 3450 50  0000 C CNN
+F 1 "IR26-21C_L110_TR8" H 7693 3625 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 7700 3700 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf" H 7700 3500 50  0001 C CNN
+	1    7700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:IR26-21C_L110_TR8 D9
+U 1 1 6280561E
+P 8300 3700
+F 0 "D9" H 8350 3600 50  0000 C CNN
+F 1 "IR26-21C_L110_TR8" H 8293 3825 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 8300 3900 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf" H 8300 3700 50  0001 C CNN
+	1    8300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:IR26-21C_L110_TR8 D5
+U 1 1 62804F06
+P 7100 3300
+F 0 "D5" H 7200 3250 50  0000 C CNN
+F 1 "IR26-21C_L110_TR8" H 7093 3425 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 7100 3500 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf" H 7100 3300 50  0001 C CNN
+	1    7100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:IR26-21C_L110_TR8 D3
+U 1 1 628048AB
+P 6500 3100
+F 0 "D3" H 6600 3050 50  0000 C CNN
+F 1 "IR26-21C_L110_TR8" H 6493 3225 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 6500 3300 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf" H 6500 3100 50  0001 C CNN
+	1    6500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:IR26-21C_L110_TR8 D2
+U 1 1 62803940
+P 6200 3000
+F 0 "D2" H 6350 2950 50  0000 C CNN
+F 1 "IR26-21C_L110_TR8" H 6193 3125 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 6200 3200 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf" H 6200 3000 50  0001 C CNN
+	1    6200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR05
+U 1 1 62D34BF9
+P 6450 2050
+F 0 "#PWR05" H 6450 1900 50  0001 C CNN
+F 1 "+5VD" H 6465 2223 50  0000 C CNN
+F 2 "" H 6450 2050 50  0001 C CNN
+F 3 "" H 6450 2050 50  0001 C CNN
+	1    6450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_component:MCP23008_SO U1
+U 1 1 62D95F8F
+P 4600 3300
+F 0 "U1" H 4600 3925 50  0000 C CNN
+F 1 "MCP23008_SO" H 4600 3834 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 4550 2800 50  0001 C CNN
+F 3 "" H 4600 3300 50  0001 C CNN
+	1    4600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:IR26-21C_L110_TR8 D6
+U 1 1 6280659E
+P 7400 3400
+F 0 "D6" H 7550 3350 50  0000 C CNN
+F 1 "IR26-21C_L110_TR8" H 7393 3525 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 7400 3600 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf" H 7400 3400 50  0001 C CNN
+	1    7400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2850 6450 3000
+Wire Wire Line
+	6450 3000 6350 3000
+Wire Wire Line
+	6750 2850 6750 3100
+Wire Wire Line
+	6750 3100 6650 3100
+Wire Wire Line
+	7050 2850 7050 3200
+Wire Wire Line
+	7050 3200 6950 3200
+Wire Wire Line
+	7350 2850 7350 3300
+Wire Wire Line
+	7350 3300 7250 3300
+Wire Wire Line
+	7650 2850 7650 3400
+Wire Wire Line
+	7650 3400 7550 3400
+Wire Wire Line
+	7950 2850 7950 3500
+Wire Wire Line
+	7950 3500 7850 3500
+Wire Wire Line
+	8250 2850 8250 3600
+Wire Wire Line
+	8250 3600 8150 3600
+Wire Wire Line
+	8550 2850 8550 3700
+Wire Wire Line
+	8550 3700 8450 3700
+Wire Wire Line
+	8550 2550 8550 2350
+Wire Wire Line
+	8550 2350 8250 2350
+Wire Wire Line
+	6450 2550 6450 2350
+Connection ~ 6450 2350
+Wire Wire Line
+	6750 2550 6750 2350
+Connection ~ 6750 2350
+Wire Wire Line
+	6750 2350 6450 2350
+Wire Wire Line
+	7050 2550 7050 2350
+Connection ~ 7050 2350
+Wire Wire Line
+	7050 2350 6750 2350
+Wire Wire Line
+	7350 2550 7350 2350
+Connection ~ 7350 2350
+Wire Wire Line
+	7350 2350 7050 2350
+Wire Wire Line
+	7650 2550 7650 2350
+Connection ~ 7650 2350
+Wire Wire Line
+	7650 2350 7350 2350
+Wire Wire Line
+	7950 2550 7950 2350
+Connection ~ 7950 2350
+Wire Wire Line
+	7950 2350 7650 2350
+Wire Wire Line
+	8250 2550 8250 2350
+Connection ~ 8250 2350
+Wire Wire Line
+	8250 2350 7950 2350
+$Comp
+L power:+5VD #PWR02
+U 1 1 62E4164E
+P 3600 2200
+F 0 "#PWR02" H 3600 2050 50  0001 C CNN
+F 1 "+5VD" H 3500 2200 50  0000 C CNN
+F 2 "" H 3600 2200 50  0001 C CNN
+F 3 "" H 3600 2200 50  0001 C CNN
+	1    3600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 62E42DBD
+P 3900 2200
+F 0 "#PWR01" H 3900 2050 50  0001 C CNN
+F 1 "+3.3V" H 3750 2200 50  0000 C CNN
+F 2 "" H 3900 2200 50  0001 C CNN
+F 3 "" H 3900 2200 50  0001 C CNN
+	1    3900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 62E4342B
+P 4100 4050
+F 0 "#PWR03" H 4100 3800 50  0001 C CNN
+F 1 "GND" H 4105 3877 50  0000 C CNN
+F 2 "" H 4100 4050 50  0001 C CNN
+F 3 "" H 4100 4050 50  0001 C CNN
+	1    4100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 62E89429
+P 3300 4150
+F 0 "J2" H 3350 3817 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 3350 4476 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Horizontal" H 3300 4150 50  0001 C CNN
+F 3 "~" H 3300 4150 50  0001 C CNN
+	1    3300 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 62D62C70
+P 3300 2900
+F 0 "J1" H 3400 2550 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 3350 3226 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal" H 3300 2900 50  0001 C CNN
+F 3 "~" H 3300 2900 50  0001 C CNN
+	1    3300 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 2050 6450 2350
+$Comp
+L power:GND #PWR04
+U 1 1 62F3B74C
+P 5550 4050
+F 0 "#PWR04" H 5550 3800 50  0001 C CNN
+F 1 "GND" H 5555 3877 50  0000 C CNN
+F 2 "" H 5550 4050 50  0001 C CNN
+F 3 "" H 5550 4050 50  0001 C CNN
+	1    5550 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2350 6450 2350
+Wire Wire Line
+	6250 2900 6250 2350
+$Comp
+L Transistor_Array:ULN2803A U2
+U 1 1 62F0B89A
+P 5550 3200
+F 0 "U2" H 5550 3767 50  0000 C CNN
+F 1 "ULN2803A" H 5550 3676 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 5600 2550 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 5650 3000 50  0001 C CNN
+	1    5550 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3000 5150 3000
+Wire Wire Line
+	5000 3100 5150 3100
+Wire Wire Line
+	5000 3200 5150 3200
+Wire Wire Line
+	5000 3300 5150 3300
+Wire Wire Line
+	5000 3400 5150 3400
+Wire Wire Line
+	5000 3500 5150 3500
+Wire Wire Line
+	5000 3600 5150 3600
+Wire Wire Line
+	5150 3700 5000 3700
+Wire Wire Line
+	5000 2900 5050 2900
+Wire Wire Line
+	5050 2900 5050 2300
+Wire Wire Line
+	5950 2900 6250 2900
+Wire Wire Line
+	6350 3100 5950 3100
+Wire Wire Line
+	5950 3200 6650 3200
+Wire Wire Line
+	6950 3300 5950 3300
+Wire Wire Line
+	5950 3700 8150 3700
+Wire Wire Line
+	7850 3600 5950 3600
+Wire Wire Line
+	5950 3500 7550 3500
+Wire Wire Line
+	7250 3400 5950 3400
+Wire Wire Line
+	5950 3000 6050 3000
+Wire Wire Line
+	5550 4050 5550 3900
+Wire Wire Line
+	4200 3700 4100 3700
+Wire Wire Line
+	4100 3700 4100 4050
+Wire Wire Line
+	3500 2900 3700 2900
+Wire Wire Line
+	3000 2900 2900 2900
+Wire Wire Line
+	2900 2900 2900 2600
+Wire Wire Line
+	2900 2600 4100 2600
+Wire Wire Line
+	4100 2600 4100 3000
+Wire Wire Line
+	4100 3000 4200 3000
+$Comp
+L power:GND #PWR?
+U 1 1 632B9050
+P 2650 2800
+F 0 "#PWR?" H 2650 2550 50  0001 C CNN
+F 1 "GND" H 2655 2627 50  0000 C CNN
+F 2 "" H 2650 2800 50  0001 C CNN
+F 3 "" H 2650 2800 50  0001 C CNN
+	1    2650 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2700 2800 2700
+Wire Wire Line
+	2650 2700 2650 2800
+Wire Wire Line
+	3500 2700 3600 2700
+Wire Wire Line
+	3600 2700 3600 2200
+Wire Wire Line
+	3500 2800 3650 2800
+Wire Wire Line
+	3900 2800 3900 2200
+Wire Wire Line
+	4200 3600 2850 3600
+Wire Wire Line
+	2850 3600 2850 2800
+Wire Wire Line
+	2850 2800 3000 2800
+Wire Wire Line
+	3000 4150 2900 4150
+Wire Wire Line
+	2900 4150 2900 2900
+Connection ~ 2900 2900
+Wire Wire Line
+	3500 4150 3700 4150
+Wire Wire Line
+	3700 4150 3700 2900
+Connection ~ 3700 2900
+Wire Wire Line
+	3700 2900 4200 2900
+Wire Wire Line
+	3500 4050 3650 4050
+Wire Wire Line
+	3650 4050 3650 2800
+Connection ~ 3650 2800
+Wire Wire Line
+	3650 2800 3900 2800
+Wire Wire Line
+	3500 3950 3600 3950
+Wire Wire Line
+	3600 3950 3600 2700
+Connection ~ 3600 2700
+Wire Wire Line
+	3000 3950 2800 3950
+Wire Wire Line
+	2800 3950 2800 2700
+Connection ~ 2800 2700
+Wire Wire Line
+	2800 2700 2650 2700
+Wire Wire Line
+	3000 4050 2850 4050
+Wire Wire Line
+	2850 4050 2850 3600
+Connection ~ 2850 3600
+Wire Wire Line
+	4200 3100 3750 3100
+Wire Wire Line
+	4050 3000 4050 3300
+Wire Wire Line
+	4050 3300 4200 3300
+Wire Wire Line
+	4200 3200 3850 3200
+Wire Wire Line
+	2950 3200 2950 3000
+Wire Wire Line
+	2950 3000 3000 3000
+Wire Wire Line
+	3500 4250 3550 4250
+Wire Wire Line
+	3550 4250 3550 3250
+Wire Wire Line
+	3550 3250 3000 3250
+Wire Wire Line
+	3000 3250 3000 3100
+Wire Wire Line
+	3500 3000 3800 3000
+Wire Wire Line
+	3750 3100 3750 4450
+Wire Wire Line
+	3750 4450 2950 4450
+Wire Wire Line
+	2950 4450 2950 4350
+Wire Wire Line
+	2950 4350 3000 4350
+Connection ~ 3750 3100
+Wire Wire Line
+	3750 3100 3500 3100
+Wire Wire Line
+	3800 3000 3800 4500
+Wire Wire Line
+	3800 4500 2900 4500
+Wire Wire Line
+	2900 4500 2900 4250
+Wire Wire Line
+	2900 4250 3000 4250
+Connection ~ 3800 3000
+Wire Wire Line
+	3800 3000 4050 3000
+Wire Wire Line
+	3500 4350 3850 4350
+Wire Wire Line
+	3850 4350 3850 3200
+Connection ~ 3850 3200
+Wire Wire Line
+	3850 3200 2950 3200
+$EndSCHEMATC
