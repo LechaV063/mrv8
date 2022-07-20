@@ -659,6 +659,7 @@
     )
   )
 
+
   (junction (at 182.88 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 13622c45-9076-4981-b6d6-89c531b35aad)
   )
@@ -1206,7 +1207,7 @@
     (property "Value" "Conn_02x05_Odd_Even" (id 1) (at 74.93 87.0204 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" (id 2) (at 76.2 78.74 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal" (id 2) (at 76.2 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 76.2 78.74 0)
@@ -1708,7 +1709,7 @@
       (reference "D8") (unit 1) (value "IR26-21C_L110_TR8") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062d62c70"
-      (reference "J1") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal")
     )
     (path "/312af263-48f6-4cf2-82b2-a35857c8679b"
       (reference "R1") (unit 1) (value "1K") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
